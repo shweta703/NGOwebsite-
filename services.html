@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore the services provided by Elder Joy Care Center: Shelter, Food, Medical Care, and Emotional Support in Nagpur.">
+    <title>Our Services | Elder Joy Care Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main Header -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">
+                <img src="Images/EldersofJoy Logo.webp" alt="Elder Joy Care Center Logo">
+            </a>
+            <nav id="main-nav">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" data-key="nav.home">Home</a></li>
+                    <li><a href="about.html" data-key="nav.about">About Us</a></li>
+                    <li><a href="services.html" class="active" data-key="nav.services">Services</a></li>
+                    <li><a href="donation.html" data-key="nav.donation">Donation</a></li>
+                    <li><a href="volunteer.html" data-key="nav.volunteer">Volunteer</a></li>
+                    <li><a href="contact.html" data-key="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <select id="languageSelect" aria-label="Select Language">
+                    <option value="en">English</option>
+                    <option value="hi">हिंदी</option>
+                    <option value="mr">मराठी</option>
+                </select>
+            </div>
+            <div class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <span>&#9776;</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Service Hero Section -->
+        <section class="page-intro" style="position: relative; overflow: hidden;">
+            <div
+                style="position: absolute; top: -150px; right: -150px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(45,106,79,0.06) 0%, transparent 70%); border-radius: 50%;">
+            </div>
+            <div class="container text-center" style="position: relative; z-index: 2;">
+                <h1 data-key="services.heroTitle">
+                    Comprehensive Elderly Care Services in Nagpur — <span style="color: var(--primary);">Rooted in
+                        Dignity</span>
+                </h1>
+                <p class="text-lead max-w-850 mx-auto" data-key="services.heroDesc">
+                    Our Elderly Care NGO in Nagpur provides holistic, long-term support to senior citizens and
+                    physically challenged individuals through medical care, daily assistance, emotional well-being, and
+                    community inclusion. We believe elderly care is not just treatment—it is about respect, continuity,
+                    and standing beside elders with responsibility and compassion every day.
+                </p>
+            </div>
+        </section>
+
+        <!-- Eligibility Section -->
+        <section class="section-padding bg-white reveal">
+            <div class="container">
+                <div class="text-center mb-3">
+                    <h2 data-key="services.eligibilityTitle">Who Can Avail Our Elderly Care Services</h2>
+                    <span class="text-uppercase" data-key="services.eligibilitySubtitle">Eligibility & Support
+                        Structure</span>
+                </div>
+
+                <div class="eligibility-container">
+                    <p class="text-center"
+                        style="font-size: 1.25rem; margin-bottom: 3rem; max-width: 800px; margin-inline: auto; color: var(--secondary); font-family: 'Crimson Pro', serif; font-style: italic;"
+                        data-key="services.eligibilityQuote">
+                        "Our services are provided based on need, vulnerability, and dignity, ensuring that no
+                        individual is denied care due to financial constraints."
+                    </p>
+
+                    <div class="eligibility-grid">
+                        <div class="eligibility-card">
+                            <h4 data-key="services.senior75">Senior Citizens 75+</h4>
+                            <p style="font-weight: 800; color: var(--primary); margin-bottom: 1rem;"
+                                data-key="services.freeCare">Free Elderly Care
+                                Services</p>
+                            <p class="text-muted">Dedicated support for our most senior residents.</p>
+                        </div>
+                        <div class="eligibility-card featured">
+                            <h4 data-key="services.physicallyChallenged">Physically Challenged</h4>
+                            <p style="font-weight: 800; color: var(--primary); margin-bottom: 1rem;"
+                                data-key="services.freeSupport">Free Care & Support
+                            </p>
+                            <p class="text-muted">Individuals of any age are eligible for support.</p>
+                        </div>
+                        <div class="eligibility-card secondary">
+                            <h4 data-key="services.seniorsBelow75">Seniors below 75</h4>
+                            <p style="font-weight: 800; color: var(--secondary); margin-bottom: 1rem;"
+                                data-key="services.supportedPlans">Supported Plans
+                            </p>
+                            <p class="text-muted">Available through supported or contribution-based plans.</p>
+                        </div>
+                    </div>
+                    <p class="text-center" style="margin-top: 2.5rem; font-weight: 600; color: var(--primary);">
+                        Our approach ensures equitable access to care with complete transparency.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nursing Care -->
+        <section class="section-padding reveal bg-warm">
+            <div class="container">
+                <div class="grid-2 gap-80">
+                    <div>
+                        <h2 data-key="services.nursingTitle">Elderly Nursing Care in Nagpur</h2>
+                        <p class="text-lead mb-2" data-key="services.nursingDesc">We provide professional,
+                            round-the-clock elderly nursing care
+                            delivered by trained and compassionate staff to ensure comfort, hygiene, and safety.</p>
+
+                        <div class="service-highlight-box">
+                            <h4 data-key="services.nursingSubtitle">Nursing support includes:</h4>
+                            <ul class="feature-list">
+                                <li data-key="services.nursingList1">Assistance with daily activities such as bathing,
+                                    feeding, and mobility</li>
+                                <li data-key="services.nursingList2">Medication administration and monitoring</li>
+                                <li data-key="services.nursingList3">Post-hospitalization nursing care</li>
+                                <li data-key="services.nursingList4">Support for bedridden and mobility-impaired elders
+                                </li>
+                                <li data-key="services.nursingList5">Compassionate end-of-life care</li>
+                            </ul>
+                            <p style="font-style: italic; font-weight: 700; color: var(--secondary); padding-top: 1.5rem; border-top: 1px solid #eee;"
+                                data-key="services.nursingNote">
+                                All care is delivered patiently and respectfully, prioritizing dignity over routine.
+                            </p>
+                        </div>
+                    </div>
+                    <div style="position: relative;">
+                        <img src="Images/Compassion Care.jpg" alt="Nursing Care" class="img-fluid"
+                            style="border-radius: var(--border-radius-md); box-shadow: var(--shadow-strong);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Medical Support -->
+        <section class="section-padding bg-white reveal">
+            <div class="container">
+                <div class="grid-2 gap-80 direction-rtl">
+                    <div class="direction-ltr">
+                        <h2 data-key="services.medicalTitle">Medical Support & Regular Health Check-Ups</h2>
+                        <p class="text-lead mb-2" data-key="services.medicalDesc">Our structured medical care model
+                            focuses on early detection,
+                            continuity, and reduced hospital dependency.</p>
+
+                        <div class="eligibility-container" style="padding: 2.5rem;">
+                            <h4 data-key="services.medicalSubtitle">Medical services include:</h4>
+                            <ul class="comparison-list" style="margin-top: 1.5rem;">
+                                <li data-key="services.medicalList1">Regular doctor consultations</li>
+                                <li data-key="services.medicalList2">Monitoring of vital parameters (BP, sugar, O2)</li>
+                                <li data-key="services.medicalList3">Preventive health check-ups</li>
+                                <li data-key="services.medicalList4">Management of chronic conditions</li>
+                                <li data-key="services.medicalList5">Coordination with hospitals and specialists</li>
+                            </ul>
+                        </div>
+                        <p style="margin-top: 2rem; font-weight: 700; color: var(--primary);"
+                            data-key="services.medicalNote">This ensures consistent medical oversight and timely
+                            intervention.</p>
+                    </div>
+                    <div class="direction-ltr">
+                        <img src="Images/Family of Elders.jpg" alt="Medical Support" class="img-fluid rounded-blob"
+                            style="box-shadow: var(--shadow-strong); border: 12px solid var(--primary-soft);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Yoga & Fitness -->
+        <section class="section-padding bg-warm reveal">
+            <div class="container">
+                <div class="grid-2 gap-80">
+                    <div>
+                        <h2 data-key="services.fitnessTitle">Yoga & Light Physical Fitness Programs</h2>
+                        <p class="text-lead mb-2" data-key="services.fitnessDesc">Physical movement plays a vital role
+                            in maintaining independence and
+                            emotional well-being in later life.</p>
+
+                        <div class="fitness-grid">
+                            <div class="fitness-item">
+                                <h4 data-key="services.fitnessItem1Title">Movement</h4>
+                                <p class="text-muted" data-key="services.fitnessItem1Desc">Chair yoga and guided
+                                    stretching</p>
+                            </div>
+                            <div class="fitness-item">
+                                <h4 data-key="services.fitnessItem2Title">Breathing</h4>
+                                <p class="text-muted" data-key="services.fitnessItem2Desc">Exercises for optimized lung
+                                    health</p>
+                            </div>
+                            <div class="fitness-item">
+                                <h4 data-key="services.fitnessItem3Title">Flexibility</h4>
+                                <p class="text-muted" data-key="services.fitnessItem3Desc">Balance and flexibility
+                                    routines</p>
+                            </div>
+                            <div class="fitness-item">
+                                <h4 data-key="services.fitnessItem4Title">Relaxation</h4>
+                                <p class="text-muted" data-key="services.fitnessItem4Desc">Stress-reduction sessions</p>
+                            </div>
+                        </div>
+
+                        <p style="margin-top: 2.5rem; line-height: 1.8; color: var(--secondary); font-weight: 500; padding-left: 20px; border-left: 4px solid var(--primary);"
+                            data-key="services.fitnessNote">
+                            These programs help improve mobility, reduce discomfort, and enhance confidence among elders
+                            and physically challenged individuals.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="Images/Group Image.jpg" alt="Wellness Programs" class="img-fluid rounded-custom-2"
+                            style="box-shadow: var(--shadow-strong); border: 8px solid white;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home Visits -->
+        <section class="section-padding bg-white reveal">
+            <div class="container">
+                <div class="grid-2 gap-80 direction-rtl">
+                    <div class="direction-ltr">
+                        <h2 data-key="services.homeVisitTitle">Home Visits & Elderly Care at Home</h2>
+                        <p class="text-lead mb-2" data-key="services.homeVisitDesc">For seniors who prefer to age in
+                            their own homes, we offer
+                            professional home care services for elderly in Nagpur.</p>
+
+                        <div
+                            style="background: var(--bg-light); padding: 2.5rem; border-radius: var(--border-radius-lg); border-right: 8px solid var(--secondary);">
+                            <h4 data-key="services.homeVisitSubtitle">Home-based support includes:</h4>
+                            <ul class="feature-list">
+                                <li data-key="services.homeVisitList1">Nursing and caregiver visits</li>
+                                <li data-key="services.homeVisitList2">Health check-ups conducted at home</li>
+                                <li data-key="services.homeVisitList3">Medication reminders and assistance</li>
+                                <li data-key="services.homeVisitList4">Emotional support and regular monitoring</li>
+                                <li data-key="services.homeVisitList5">Guidance for family members and caregivers</li>
+                            </ul>
+                        </div>
+                        <p style="margin-top: 2rem; font-weight: 700; color: var(--secondary);"
+                            data-key="services.homeVisitNote">This service allows
+                            elders to remain safe and supported within familiar surroundings.</p>
+                    </div>
+                    <div class="direction-ltr">
+                        <img src="Images/Celebration.jpg" alt="Home Care Services" class="img-fluid"
+                            style="border-radius: 20px; box-shadow: var(--shadow-strong);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Summary Comparison -->
+        <section class="section-padding bg-white reveal">
+            <div class="container">
+                <div class="text-center mb-3">
+                    <h2 data-key="services.comparisonTitle">Free vs Supported Elderly Care Services</h2>
+                    <span class="text-uppercase" data-key="services.comparisonSubtitle">Transparent & Ethical
+                        Structure</span>
+                </div>
+
+                <div class="comparison-grid">
+                    <div class="comparison-card primary">
+                        <h3 data-key="services.comparisonFreeTitle">Free Care Services</h3>
+                        <ul class="comparison-list">
+                            <li data-key="services.comparisonFreeList1">Senior citizens aged 75 years and above</li>
+                            <li data-key="services.comparisonFreeList2">Physically challenged individuals (any age)</li>
+                            <li data-key="services.comparisonFreeList3">Includes nursing, medical, wellness & daily
+                                assistance</li>
+                        </ul>
+                    </div>
+                    <div class="comparison-card secondary">
+                        <h3 data-key="services.comparisonPaidTitle">Supported Services</h3>
+                        <ul class="comparison-list">
+                            <li data-key="services.comparisonPaidList1">Senior citizens below 75 years</li>
+                            <li data-key="services.comparisonPaidList2">Specialized or extended medical care</li>
+                            <li data-key="services.comparisonPaidList3">Customized elderly care plans</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p class="text-center"
+                    style="margin-top: 3rem; font-size: 1.25rem; font-style: italic; color: var(--secondary); font-family: 'Crimson Pro', serif;"
+                    data-key="services.comparisonNote">
+                    All service structures are communicated clearly, ethically, and without hidden conditions.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 data-key="footer.quickLinks">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-key="nav.home">Home</a></li>
+                        <li><a href="about.html" data-key="nav.about">About Us</a></li>
+                        <li><a href="services.html" data-key="nav.services">Our Services</a></li>
+                        <li><a href="donation.html" data-key="nav.donation">Donation</a></li>
+                        <li><a href="volunteer.html" data-key="nav.volunteer">Volunteer With Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-key="footer.contact">Contact Us</h4>
+                    <p><span>📍</span> <span data-key="contact.address">89, near NIT Garden, Telecom Nagar, Pratap
+                            Nagar, Nagpur, Maharashtra
+                            440022</span></p>
+                    <p><span>📞</span> <span>+91 086699 98189</span></p>
+                    <p><span>✉️</span> <span>Info@elderjoycarecenter.com</span></p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-key="footer.follow">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon facebook" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon instagram" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.332 3.608 1.308.975.975 1.247 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.332 2.633-1.308 3.608-.975.975-2.242 1.247-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.332-3.608-1.308-.975-.975-1.247-2.242-1.308-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.332-2.633 1.308-3.608.975-.975 2.242-1.247 3.608-1.308 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.337 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.667-.014 4.947-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.337-2.618-6.78-6.98-6.98-1.281-.058-1.689-.072-4.948-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon linkedin" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon youtube" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p data-key="footer.copyright">Copyright &copy; 2026 Elder Joy Care Center | Powered by <a
+                        href="https://asteyaservices.com/" target="_blank">Asteya Services</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="multilang.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Support Elder Joy Care Center. Your donations help us provide food, medical care, and shelter to senior citizens in Nagpur.">
+    <title>Donate | Elder Joy Care Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main Header -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">
+                <img src="Images/EldersofJoy Logo.webp" alt="Elder Joy Care Center Logo">
+            </a>
+            <nav id="main-nav">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html" data-key="nav.home">Home</a></li>
+                    <li><a href="about.html" data-key="nav.about">About Us</a></li>
+                    <li><a href="services.html" data-key="nav.services">Services</a></li>
+                    <li><a href="donation.html" class="active" data-key="nav.donation">Donation</a></li>
+                    <li><a href="volunteer.html" data-key="nav.volunteer">Volunteer</a></li>
+                    <li><a href="contact.html" data-key="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <select id="languageSelect" aria-label="Select Language">
+                    <option value="en">English</option>
+                    <option value="hi">हिंदी</option>
+                    <option value="mr">मराठी</option>
+                </select>
+            </div>
+            <div class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <span>&#9776;</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Donation Hero Section -->
+        <section class="section-padding bg-warm" style="position: relative; overflow: hidden;">
+            <div
+                style="position: absolute; top: -100px; left: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(45,106,79,0.06) 0%, transparent 70%); border-radius: 50%;">
+            </div>
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h1 data-key="donation.heroTitle">
+                            Donate for Elderly Care in Nagpur —
+                            <span class="d-block mt-2" style="font-size: 0.7em; color: var(--secondary); opacity: 0.9;"
+                                data-key="donation.heroSubtitle">Give Dignity, Comfort & Hope</span>
+                        </h1>
+                        <p class="text-lead mb-4" data-key="donation.heroDesc">
+                            Your kindness helps ensure that growing old never means being forgotten. Support our mission
+                            to provide a safe home, medical care, and love to abandoned and vulnerable elders.
+                        </p>
+                        <p
+                            style="font-size: 1.25rem; font-weight: 700; color: var(--secondary); font-family: 'Crimson Pro', serif; font-style: italic; margin-bottom: 3rem; padding-left: 20px; border-left: 4px solid var(--primary);">
+                            Your donation is more than financial support. It is dignity, reassurance, medical care, and
+                            human connection for those who need it most.
+                        </p>
+                    </div>
+
+                    <!-- Cleaner & Premium Donation Form -->
+                    <div class="donation-form-container">
+                        <div class="form-header">
+                            <h3 data-key="donation.formTitle">Make a Contribution</h3>
+                            <p data-key="donation.formIntro">Your support brings smiles to our elders.</p>
+                        </div>
+
+                        <form id="donation-form" class="donation-form">
+                            <!-- Amount Selection -->
+                            <div class="form-section">
+                                <label class="form-label" data-key="donation.amountLabel">Select Amount</label>
+                                <div class="amount-presets">
+                                    <button type="button" class="preset-btn" data-amount="1000">₹1,000</button>
+                                    <button type="button" class="preset-btn" data-amount="2500">₹2,500</button>
+                                    <button type="button" class="preset-btn" data-amount="5000">₹5,000</button>
+                                </div>
+                                <div class="custom-amount-wrapper">
+                                    <span class="currency-symbol">₹</span>
+                                    <input type="number" id="donation-amount" name="amount" placeholder="Enter Amount"
+                                        min="100" required>
+                                </div>
+                            </div>
+
+                            <!-- Personal Details -->
+                            <div class="form-section">
+                                <label class="form-label" data-key="donation.personalDetails">Your Details</label>
+                                <div class="input-stack">
+                                    <input type="text" id="donor-name" name="name" placeholder="Full Name" required>
+                                    <input type="email" id="donor-email" name="email" placeholder="Email Address"
+                                        required>
+                                    <input type="tel" id="donor-phone" name="phone" placeholder="Phone Number" required
+                                        maxlength="10" pattern="[0-9]{10}">
+                                </div>
+                            </div>
+
+                            <!-- Action -->
+                            <div class="form-action">
+                                <button type="submit" id="donation-submit-btn" class="btn btn-primary w-100">
+                                    <i class="fas fa-heart mr-2"></i> <span data-key="donation.btn">Donate Now</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Your Donation Matters -->
+        <section class="section-padding bg-white reveal">
+            <div class="container">
+                <div class="text-center mb-3">
+                    <h2 class="mb-3" data-key="donation.whyMattersTitle">Why Your Donation Matters</h2>
+                    <p class="text-lead max-w-850 mx-auto" data-key="donation.whyMattersDesc">Across communities, many
+                        elders face challenges that make daily life difficult. Without support, they often endure:</p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="impact-summary-grid">
+                        <div class="impact-summary-item">
+                            <div class="icon">🏠</div>
+                            <h4 data-key="donation.impact1">Loneliness and abandonment</h4>
+                        </div>
+                        <div class="impact-summary-item">
+                            <div class="icon">🩺</div>
+                            <h4 data-key="donation.impact2">Chronic health conditions without treatment</h4>
+                        </div>
+                        <div class="impact-summary-item">
+                            <div class="icon">📉</div>
+                            <h4 data-key="donation.impact3">Limited or no income for essentials</h4>
+                        </div>
+                        <div class="impact-summary-item">
+                            <div class="icon">🧑‍🦽</div>
+                            <h4 data-key="donation.impact4">Physical challenges affecting mobility</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-lead mb-2" data-key="donation.impactNote">
+                            Without timely support, their later years become a struggle instead of a time of peace. When
+                            you donate to an elderly care NGO in Nagpur, you help ensure that no elder is left without
+                            care, safety, or dignity.
+                        </p>
+                        <p style="font-size: 1.25rem; font-weight: 800; color: var(--secondary); font-family: 'Crimson Pro', serif; font-style: italic;"
+                            data-key="donation.impactQuote">
+                            "Your generosity restores not just health—but hope and self-worth."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How Your Donation Is Used -->
+        <section class="section-padding bg-warm reveal">
+            <div class="container">
+                <div class="text-center mb-3">
+                    <h2 data-key="donation.usageTitle">How Your Donation Is Used</h2>
+                    <p class="text-lead max-w-850 mx-auto" data-key="donation.usageIntro">We believe every donor
+                        deserves clarity and confidence. Each
+                        contribution is directed toward real, measurable care.</p>
+                </div>
+
+                <div class="usage-card-grid">
+                    <div class="usage-card">
+                        <h3 data-key="donation.medical">Medical Care & Nursing</h3>
+                        <ul>
+                            <li data-key="donation.medicalList1">Regular doctor consultations</li>
+                            <li data-key="donation.medicalList2">Medicines and ongoing treatment</li>
+                            <li data-key="donation.medicalList3">Nursing support for hygiene & mobility</li>
+                        </ul>
+                    </div>
+                    <div class="usage-card">
+                        <h3 data-key="donation.food">Food & Essentials</h3>
+                        <ul>
+                            <li data-key="donation.foodList1">Fresh, balanced meals</li>
+                            <li data-key="donation.foodList2">Clean drinking water</li>
+                            <li data-key="donation.foodList3">Personal hygiene items</li>
+                        </ul>
+                    </div>
+                    <div class="usage-card">
+                        <h3 data-key="donation.shelter">Safe Shelter</h3>
+                        <ul>
+                            <li data-key="donation.shelterList1">Secure accommodation</li>
+                            <li data-key="donation.shelterList2">Clean, elder-friendly spaces</li>
+                            <li data-key="donation.shelterList3">24/7 supervision and assistance</li>
+                        </ul>
+                    </div>
+                    <div class="usage-card">
+                        <h3 data-key="donation.wellness">Emotional Wellness</h3>
+                        <ul>
+                            <li data-key="donation.wellnessList1">Yoga and light fitness</li>
+                            <li data-key="donation.wellnessList2">Emotional companionship</li>
+                            <li data-key="donation.wellnessList3">Social joyful activities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who Your Donation Helps -->
+        <section class="section-padding bg-white reveal">
+            <div class="container">
+                <div class="trust-accent-box">
+                    <h2 style="color: white; margin-bottom: 25px;" data-key="donation.helpsTitle">Who Your Donation
+                        Helps</h2>
+                    <div class="trust-accent-grid">
+                        <div class="trust-accent-item">
+                            <p data-key="donation.helps1Title">Senior citizens aged 75+</p>
+                            <p data-key="donation.helps1Sub">(Free care provided)</p>
+                        </div>
+                        <div class="trust-accent-item">
+                            <p data-key="donation.helps2Title">Physically Challenged</p>
+                            <p data-key="donation.helps2Sub">(Universal support)</p>
+                        </div>
+                        <div class="trust-accent-item">
+                            <p data-key="donation.helps3Title">Elders without Family</p>
+                            <p data-key="donation.helps3Sub">(Compassionate aid)</p>
+                        </div>
+                    </div>
+                    <p style="font-size: 1.1rem; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 25px;"
+                        data-key="donation.helpsNote">
+                        Your generosity ensures care is provided based on need, not affordability.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Security & Trust -->
+        <section class="section-padding bg-warm reveal">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h2 data-key="donation.trustTitle">Safe Online Donation & Receipt Assurance</h2>
+                        <p class="text-lead mb-2" data-key="donation.trustIntro">We offer secure and transparent
+                            donation options:</p>
+                        <ul class="feature-list">
+                            <li data-key="donation.trustList1">Safe and encrypted payment gateways</li>
+                            <li data-key="donation.trustList2">Instant acknowledgment</li>
+                            <li data-key="donation.trustList3">Donation receipt provided</li>
+                            <li data-key="donation.trustList4">Transparent accounting and ethical governance</li>
+                        </ul>
+                    </div>
+                    <div class="card text-center">
+                        <h4 style="color: var(--secondary);" data-key="donation.commitmentTitle">Our Commitment to Trust
+                        </h4>
+                        <div style="text-align: left; margin: 2rem 0;">
+                            <p style="margin-bottom: 0.75rem;" data-key="donation.commitmentList1">• Ethical use of
+                                funds</p>
+                            <p style="margin-bottom: 0.75rem;" data-key="donation.commitmentList2">• Clear documentation
+                            </p>
+                            <p style="margin-bottom: 0.75rem;" data-key="donation.commitmentList3">• Honest
+                                communication</p>
+                            <p data-key="donation.commitmentList4">• Long-term impact focus</p>
+                        </div>
+                        <p style="font-weight: 700; color: var(--secondary);" data-key="donation.commitmentNote">Every
+                            rupee is treated as a
+                            responsibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 data-key="footer.quickLinks">Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html" data-key="nav.home">Home</a></li>
+                        <li><a href="about.html" data-key="nav.about">About Us</a></li>
+                        <li><a href="services.html" data-key="nav.services">Our Services</a></li>
+                        <li><a href="donation.html" data-key="nav.donation">Donation</a></li>
+                        <li><a href="volunteer.html" data-key="nav.volunteer">Volunteer With Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-key="footer.contact">Contact Us</h4>
+                    <p><span>📍</span> <span data-key="contact.address">89, near NIT Garden, Telecom Nagar, Pratap
+                            Nagar, Nagpur, Maharashtra
+                            440022</span></p>
+                    <p><span>📞</span> <span>+91 086699 98189</span></p>
+                    <p><span>✉️</span> <span>Info@elderjoycarecenter.com</span></p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-key="footer.follow">Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon facebook" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon instagram" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.332 3.608 1.308.975.975 1.247 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.332 2.633-1.308 3.608-.975.975-2.242 1.247-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.332-3.608-1.308-.975-.975-1.247-2.242-1.308-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.332-2.633 1.308-3.608.975-.975 2.242-1.247 3.608-1.308 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.337 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.667-.014 4.947-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.337-2.618-6.78-6.98-6.98-1.281-.058-1.689-.072-4.948-.072zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon linkedin" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon youtube" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-key="footer.copyright">Copyright &copy; 2026 Elder Joy Care Center | Powered by <a
+                        href="https://asteyaservices.com/" target="_blank">Asteya Services</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://sdk.cashfree.com/js/v3/cashfree.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="script.js"></script>
+
+    <script src="multilang.js"></script>
+</body>
+
+</html>
